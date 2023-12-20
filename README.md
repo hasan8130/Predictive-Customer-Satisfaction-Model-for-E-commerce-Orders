@@ -122,7 +122,7 @@ Finally we get the best results with the Ensemble Learning methods such as XGBoo
 
 We can tune our model using Grid Search CV and Cross Validation .
 
-# Pipelines (Main focus of the project ) :
+# Pipelines for Prediction and Deployment :
 
 * In order to build a real-world workflow for predicting the customer satisfaction score for the next order or purchase (which will help make better decisions), it is not enough to just train the model once.
 * Instead, we are building an end-to-end pipeline for continuously predicting and deploying the machine learning model, alongside a data application that utilizes the latest deployed model for the business to consume.

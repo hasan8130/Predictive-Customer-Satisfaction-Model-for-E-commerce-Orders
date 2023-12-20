@@ -13,7 +13,7 @@ Olist is an e-commerce site of Brazil which provides a better platform to connec
 
 * Once the customer receives the product, or if the estimated delivery date is due, the customer gets a satisfaction survey by email where he can give a note for the purchase experience and write down some comments.
 
-  <img src="" width="50%" height="50%"> 
+  <img src="https://github.com/hasan8130/Predictive-Customer-Satisfaction-Model-for-E-commerce-Orders/blob/main/readme_pics/1.PNG" width="50%" height="50%"> 
 
 # Data Overview :
 
@@ -34,7 +34,7 @@ Data is available in 9 csv files:
 8. olist_sellers_dataset.csv(order_selldata)
 9. product_category_name_translation.csv(order_prd_catdata)
     
- <img src="" width="50%" height="50%"> 
+ <img src="https://github.com/hasan8130/Predictive-Customer-Satisfaction-Model-for-E-commerce-Orders/blob/main/readme_pics/2.PNG" width="50%" height="50%"> 
  
 
  The data is merged accordingly after cleaning and analysis to get the final data needed for further preprocessing ,feature selection, and model training.
@@ -64,11 +64,11 @@ Some conclusions that are helpful to us:
 *  Most variables do have quite weak relationship with review score .
 
       Correlation matrix -
-   <img src="" width="50%" height="50%">
+   <img src="https://github.com/hasan8130/Predictive-Customer-Satisfaction-Model-for-E-commerce-Orders/blob/main/readme_pics/3.PNG" width="50%" height="50%">
 
 
       Feature Importance -
-   <img src="" width="50%" height="50%">
+   <img src="https://github.com/hasan8130/Predictive-Customer-Satisfaction-Model-for-E-commerce-Orders/blob/main/readme_pics/4.PNG" width="50%" height="50%">
 
 # Metric :
 Since we have to predict the review score for the next order , we can formulate this problem as a regression type.
@@ -85,7 +85,7 @@ For this purpose some of the metrics are:
 4. Feature Engineering - We see the original data there aren't many columns that are correlated to target.
 
    Correlation before adding new features 
-<img src="" width="50%" height="50%">
+<img src="https://github.com/hasan8130/Predictive-Customer-Satisfaction-Model-for-E-commerce-Orders/blob/main/readme_pics/5.PNG" width="50%" height="50%">
 It's clear that we have to create more informative features to model this problem
 
 * Working Days Estimated Delivery Time ->
@@ -106,7 +106,7 @@ If a customer pays more for freight, he might expect a better service.
 
  Correlation after adding new features 
  
-<img src="" width="50%" height="50%">
+<img src="https://github.com/hasan8130/Predictive-Customer-Satisfaction-Model-for-E-commerce-Orders/blob/main/readme_pics/6.PNG" width="50%" height="50%">
 
 5. Check for missing values - no missing values were found .
 6. Dealing with Categorical and Numerical Attributes - The way we handle categorical data is very different from the transformations needed for numerical features. We will create a transformer to select only categorical or numerical features for processing.
@@ -157,12 +157,12 @@ In the deployment pipeline, ZenML's MLflow tracking integration is used for logg
 When a new pipeline is run which produces a model that passes the accuracy threshold validation, the pipeline automatically updates the currently running MLflow deployment server to serve the new model instead of the old one.
 
 
-<img src="" width="50%" height="50%">
+<img src="https://github.com/hasan8130/Predictive-Customer-Satisfaction-Model-for-E-commerce-Orders/blob/main/readme_pics/7.PNG" width="50%" height="50%">
 
 ## App as a service :
 To round it off, we deploy a Streamlit application that consumes the latest model service from the pipeline logic.
 
-<img src="" width="50%" height="50%">
+<img src="https://github.com/hasan8130/Predictive-Customer-Satisfaction-Model-for-E-commerce-Orders/blob/main/readme_pics/8.PNG" width="50%" height="50%">
 
 # Running the project locally :
 
@@ -181,6 +181,7 @@ $ git clone https://github.com/hasan8130/Predictive-Customer-Satisfaction-Model-
 pip install zenml["server"]
 zenml up
 ```
+<img src="https://github.com/hasan8130/Predictive-Customer-Satisfaction-Model-for-E-commerce-Orders/blob/main/readme_pics/9.PNG" width="50%" height="50%">
 
 If you are running the run_deployment.py script, you will also need to install some integrations using ZenML:
 ```bash

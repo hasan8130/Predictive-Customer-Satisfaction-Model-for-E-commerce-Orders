@@ -50,7 +50,8 @@ Our main hypothesis is that the product and how the order was fulfilled might in
 
 
 # EDA :
-The aim of the project is not to dive depp into the Data analysis and EDAs (Exploratory Data Analysis) made by other users are publicly available at the dataset's kernels. That's why we're going to skip much of the EDA and jump into the problem. 
+The aim of the project is not to dive deep into EDAs (Exploratory Data Analysis) so i have made use of some publicly available notebooks for drawing conclusions. 
+
 Some of the notebooks to refer to :
 * [Data Cleaning, Viz and Stat Analysis on e-com by Azim Salikhov](https://www.kaggle.com/code/goldendime/data-cleaning-viz-and-stat-analysis-on-e-com/notebook)
 * [E-Commerce Exploratory Analysis by Aguiar](https://www.kaggle.com/code/jsaguiar/e-commerce-exploratory-analysis/notebook)

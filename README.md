@@ -55,6 +55,7 @@ The aim of the project is not to dive deep into EDAs (Exploratory Data Analysis)
 Some of the notebooks to refer to :
 * [Data Cleaning, Viz and Stat Analysis on e-com by Azim Salikhov](https://www.kaggle.com/code/goldendime/data-cleaning-viz-and-stat-analysis-on-e-com/notebook)
 * [E-Commerce Exploratory Analysis by Aguiar](https://www.kaggle.com/code/jsaguiar/e-commerce-exploratory-analysis/notebook)
+*  [Olist E-commerce Data Analysis](https://medium.com/@tolamoye/olist-e-commerce-data-analysis-dff46d41e5a5)
 
 The analysis ,helps us to understand what exactly is happening with the data .
 
@@ -62,7 +63,10 @@ Some conclusions that are helpful to us:
 *  Product description length, photos quantities and delivery time have positive relationship with review score .
 *  more expensive items sold online do have negative relationship with review score.
 *  order item quantity have negative relationship with review score.
-*  Most variables do have quite weak relationship with review score .
+*  The most popular product category on Olist is “bed bath table,” and as we examine the popularity from the most to the least popular categories, we observe a significant decrease in their sales volume. This decrease in sales volume from the most popular to the least popular categories suggests certain implications.
+* It can be concluded that sellers with review scores of 4 and 5 had the highest number of orders, indicating positive sales performance. Furthermore, sellers with higher review scores also generated higher total revenue, suggesting a correlation between positive reviews and increased sales. However, it is interesting to note that sellers with a review score of 1 had the highest average revenue, indicating that other factors may influence sales performance beyond just review scores.
+* Geolocations with higher customer densities indicate areas where the company has a larger customer base and potentially higher market demand.
+  
 
       Correlation matrix -
    <img src="https://github.com/hasan8130/Predictive-Customer-Satisfaction-Model-for-E-commerce-Orders/blob/main/readme_pics/3.PNG" width="50%" height="50%">
